@@ -15,6 +15,16 @@ body {
   background-color: rosybrown;
 }
 
+.header {
+  display: -ms-grid;
+  display: grid;
+  padding: 2rem 2rem;
+}
+
+.header__logo {
+  width: 3rem;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;

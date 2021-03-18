@@ -25,10 +25,20 @@ body {
   width: 3rem;
 }
 
+.hero {
+  display: -ms-grid;
+  display: grid;
+  margin: 2rem 4rem;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
+  font-weight: 400;
+}
+
+.heading--1 {
   font-weight: 400;
 }
 /*# sourceMappingURL=main.css.map */

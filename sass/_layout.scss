@@ -6,3 +6,24 @@
     width: 3rem;
   }
 }
+
+.gallery {
+  margin: 5rem;
+
+  &__title {
+    margin-bottom: 4rem;
+  }
+
+  &__image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+
+  &__image {
+    width: 25rem;
+    height: 18.75rem;
+  }
+}

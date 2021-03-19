@@ -25,6 +25,31 @@ body {
   width: 3rem;
 }
 
+.gallery {
+  margin: 5rem;
+}
+
+.gallery__title {
+  margin-bottom: 4rem;
+}
+
+.gallery__image-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.gallery__image {
+  width: 25rem;
+  height: 18.75rem;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;

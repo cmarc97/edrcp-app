@@ -15,4 +15,5 @@
 .DS_Store
 .prettierignore
 
-sass/
+sass/main.css
+sass/main.css.map

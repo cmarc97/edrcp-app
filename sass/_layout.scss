@@ -10,4 +10,9 @@
 .hero {
   display: grid;
   margin: 2rem 4rem;
+  &__image {
+    background-color: aqua;
+    width: 100%;
+    height: 35rem;
+  }
 }

@@ -65,3 +65,44 @@
     }
   }
 }
+
+.petit-groupe {
+  overflow: hidden;
+  &__title {
+    margin: 5rem;
+  }
+
+  &__carrousel {
+    display: flex;
+    justify-content: space-around;
+
+    &-image {
+      border-radius: 15px;
+      background-color: $color-grey;
+      width: 70vw;
+      height: 37rem;
+    }
+  }
+
+  &__button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__button {
+    border: none;
+    border-radius: 15px;
+    padding: 1rem 2.5rem;
+    margin-right: 2rem;
+    outline: none;
+
+    &:active,
+    &:hover {
+      background-color: $color-grey;
+      cursor: pointer;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

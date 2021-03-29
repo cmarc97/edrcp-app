@@ -50,6 +50,7 @@ body {
       grid-template-columns: repeat(4, 1fr);
   -webkit-column-gap: 3rem;
           column-gap: 3rem;
+  overflow: hidden;
 }
 
 .news__list-item {

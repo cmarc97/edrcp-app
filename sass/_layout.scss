@@ -17,6 +17,27 @@
   }
 }
 
+.news {
+  display: grid;
+  margin: 2rem 4rem;
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    overflow: hidden; // ou scroll
+  }
+
+  &__list-item {
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px rgba($color: #000000, $alpha: 0.2);
+    background-color: $color-grey;
+    width: 36rem;
+    height: 60rem;
+    margin: 1 1rem;
+  }
+}
+
 .gallery {
   margin: 5rem;
 
@@ -33,9 +54,8 @@
   }
 
   &__image {
-    width: 100%;
+    width: 25rem;
     height: 18.75rem;
-    background-color: $color-grey;
   }
 }
 
@@ -53,7 +73,6 @@
     &-image {
       width: 42rem;
       height: 27rem;
-      background-color: $color-grey;
     }
 
     &-text {

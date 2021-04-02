@@ -37,3 +37,50 @@
     margin: 1 1rem;
   }
 }
+
+.gallery {
+  margin: 5rem;
+
+  &__title {
+    margin-bottom: 4rem;
+  }
+
+  &__image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+
+  &__image {
+    width: 25rem;
+    height: 18.75rem;
+  }
+}
+
+.services {
+  margin: 5rem;
+
+  &__title {
+    margin-bottom: 4rem;
+  }
+
+  &__presentation {
+    display: flex;
+    margin-bottom: 5rem;
+
+    &-image {
+      width: 42rem;
+      height: 27rem;
+    }
+
+    &-text {
+      display: flex;
+      flex-direction: column;
+      width: 33rem;
+      height: 13rem;
+      margin: 3rem;
+    }
+  }
+}
